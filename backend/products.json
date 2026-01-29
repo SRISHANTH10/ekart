@@ -1,0 +1,41 @@
+[
+  { "id": 1, "name": "iPhone 15", "price": 79999, "category": "electronics", "img": "assets/images/iphone.jpg" },
+  { "id": 2, "name": "Samsung Galaxy S23", "price": 74999, "category": "electronics", "img": "assets/images/samsung.jpg" },
+  { "id": 3, "name": "Laptop Dell Inspiron", "price": 55999, "category": "electronics", "img": "assets/images/laptop.jpg" },
+  { "id": 4, "name": "Gaming Mouse", "price": 1499, "category": "electronics", "img": "assets/images/mouse.jpg" },
+  { "id": 5, "name": "Mechanical Keyboard", "price": 2999, "category": "electronics", "img": "assets/images/keyboard.jpg" },
+  { "id": 6, "name": "Bluetooth Headphones", "price": 2499, "category": "electronics", "img": "assets/images/headphones.jpg" },
+  { "id": 7, "name": "Smart Watch", "price": 4999, "category": "electronics", "img": "assets/images/watch.jpg" },
+  { "id": 8, "name": "Power Bank 20000mAh", "price": 1999, "category": "electronics", "img": "assets/images/powerbank.jpg" },
+  { "id": 9, "name": "USB-C Charger", "price": 899, "category": "electronics", "img": "assets/images/charger.jpg" },
+  { "id": 10, "name": "Wireless Earbuds", "price": 3499, "category": "electronics", "img": "assets/images/earbuds.jpg" },
+
+  { "id": 21, "name": "Mixer Grinder", "price": 3999, "category": "kitchen", "img": "assets/images/mixer.jpg" },
+  { "id": 22, "name": "Air Fryer", "price": 8999, "category": "kitchen", "img": "assets/images/airfryer.jpg" },
+  { "id": 23, "name": "Electric Kettle", "price": 1499, "category": "kitchen", "img": "assets/images/kettle.jpg" },
+  { "id": 24, "name": "Gas Stove", "price": 5999, "category": "kitchen", "img": "assets/images/stove.jpg" },
+  { "id": 25, "name": "Pressure Cooker", "price": 2499, "category": "kitchen", "img": "assets/images/cooker.jpg" },
+
+  { "id": 31, "name": "Men T-Shirt", "price": 799, "category": "fashion", "img": "assets/images/tshirt.jpg" },
+  { "id": 32, "name": "Women Kurti", "price": 1499, "category": "fashion", "img": "assets/images/kurti.jpg" },
+  { "id": 33, "name": "Jeans", "price": 1999, "category": "fashion", "img": "assets/images/jeans.jpg" },
+  { "id": 34, "name": "Formal Shirt", "price": 1299, "category": "fashion", "img": "assets/images/shirt.jpg" },
+  { "id": 35, "name": "Sneakers", "price": 2999, "category": "fashion", "img": "assets/images/shoes.jpg" },
+
+  { "id": 41, "name": "Office Chair", "price": 7999, "category": "home", "img": "assets/images/chair.jpg" },
+  { "id": 42, "name": "Study Table", "price": 5999, "category": "home", "img": "assets/images/table.jpg" },
+  { "id": 43, "name": "LED Lamp", "price": 999, "category": "home", "img": "assets/images/lamp.jpg" },
+  { "id": 44, "name": "Wall Clock", "price": 1499, "category": "home", "img": "assets/images/clock.jpg" },
+
+  { "id": 49, "name": "Cricket Bat", "price": 2999, "category": "sports", "img": "assets/images/bat.jpg" },
+  { "id": 50, "name": "Football", "price": 1299, "category": "sports", "img": "assets/images/football.jpg" },
+
+  { "id": 51, "name": "Face Wash", "price": 299, "category": "beauty", "img": "assets/images/facewash.jpg" },
+  { "id": 52, "name": "Perfume", "price": 1999, "category": "beauty", "img": "assets/images/perfume.jpg" },
+
+  { "id": 53, "name": "Toy Car", "price": 499, "category": "toys", "img": "assets/images/toycar.jpg" },
+  { "id": 54, "name": "Teddy Bear", "price": 899, "category": "toys", "img": "assets/images/teddy.jpg" },
+
+  { "id": 82, "name": "Notebook Pack", "price": 499, "category": "books", "img": "assets/images/notebook.jpg" },
+  { "id": 83, "name": "Pen Set", "price": 299, "category": "books", "img": "assets/images/pen.jpg" }
+]

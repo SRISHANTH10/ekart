@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Orders | eKart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="admin-body">
+
+<div class="admin-layout">
+
+  <aside class="admin-sidebar">
+    <h2>eKart Admin</h2>
+    <nav>
+      <a href="admin.html">📊 Dashboard</a>
+      <a class="active">🛒 Orders</a>
+      <a href="admin-users.html">👤 Users</a>
+      <a href="index.html">🏠 Back to Store</a>
+    </nav>
+  </aside>
+
+  <main class="admin-main">
+    <h2>All Orders</h2>
+   <div class="admin-card">
+  <table class="orders-table">
+    <thead>
+      <tr>
+        <th>Order ID</th>
+        <th>User</th>
+        <th>Items</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody id="orders"></tbody>
+  </table>
+</div>
+
+  </main>
+
+</div>
+
+<script src="admin-orders.js"></script>
+</body>
+</html>

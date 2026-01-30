@@ -2,7 +2,7 @@ const token = localStorage.getItem("token");
 const currentUser = JSON.parse(localStorage.getItem("user"));
 
 async function loadUsers() {
-  const res = await fetch("http://localhost:3000/api/admin/users", {
+  const res = await fetch("https://ekart-backend-6o5a.onrender.com/api/admin/users", {
     headers: {
       Authorization: `Bearer ${token}`
     }
@@ -41,7 +41,7 @@ async function loadUsers() {
 
 async function changeRole(id, role) {
   const res = await fetch(
-    `http://localhost:3000/api/admin/users/${id}/role`,
+    `https://ekart-backend-6o5a.onrender.com/api/admin/users/${id}/role`,
     {
       method: "PUT",
       headers: {

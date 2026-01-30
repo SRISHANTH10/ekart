@@ -1,4 +1,4 @@
-const API = "http://localhost:3000/api/auth";
+const API = "https://ekart-backend-6o5a.onrender.com/api/auth";
 
 async function signup() {
   const name = document.getElementById("name").value;

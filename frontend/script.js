@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const sortSelect = document.getElementById("sort");
 
   /* ===== LOAD PRODUCTS ===== */
-  fetch("http://localhost:3000/api/products")
+  fetch("https://ekart-backend-6o5a.onrender.com/api/products")
     .then(res => res.json())
     .then(data => {
       productData = data;

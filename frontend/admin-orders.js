@@ -1,7 +1,7 @@
 const token = localStorage.getItem("token");
 
 async function loadOrders() {
-  const res = await fetch("http://localhost:3000/api/admin/orders", {
+  const res = await fetch("https://ekart-backend-6o5a.onrender.com/api/admin/orders", {
     headers: {
       Authorization: `Bearer ${token}`
     }

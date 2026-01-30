@@ -7,7 +7,7 @@ async function loadOrders() {
     return;
   }
 
-  const res = await fetch("http://localhost:3000/api/orders", {
+  const res = await fetch("https://ekart-backend-6o5a.onrender.com/api/orders", {
     headers: { Authorization: `Bearer ${token}` }
   });
 

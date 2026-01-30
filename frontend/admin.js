@@ -143,7 +143,7 @@ async function deleteProduct(id) {
 loadProducts();
 
 async function loadStats() {
-  const res = await fetch("http://localhost:3000/api/admin/stats", {
+  const res = await fetch("https://ekart-backend-6o5a.onrender.com/api/admin/stats", {
     headers: {
       Authorization: `Bearer ${token}`
     }

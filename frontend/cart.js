@@ -6,7 +6,7 @@ const token = localStorage.getItem("token");
 async function loadCart() {
   if (!token) return;
 
-  const res = await fetch("http://localhost:3000/api/cart", {
+  const res = await fetch("https://ekart-backend-6o5a.onrender.com/api/cart", {
     headers: {
       Authorization: `Bearer ${token}`
     }

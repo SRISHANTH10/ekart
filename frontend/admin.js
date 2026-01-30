@@ -14,7 +14,7 @@ if (!user || user.role !== "admin") {
 async function loadProducts() {
   console.log("loadProducts() called");
 
-  const res = await fetch("http://localhost:3000/api/admin/products", {
+  const res = await fetch("https://ekart-backend-6o5a.onrender.com/api/admin/products", {
     headers: {
       Authorization: `Bearer ${token}`
     }
@@ -69,7 +69,7 @@ async function addProduct() {
     return;
   }
 
-  const res = await fetch("http://localhost:3000/api/admin/products", {
+  const res = await fetch("https://ekart-backend-6o5a.onrender.com/api/admin/products", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -112,7 +112,7 @@ async function deleteProduct(id) {
   msg.textContent = "Deleting product...";
   msg.style.color = "#555";
 
-  const res = await fetch(`http://localhost:3000/api/admin/products/${id}`, {
+  const res = await fetch(`https://ekart-backend-6o5a.onrender.com/api/admin/products/${id}`, {
     method: "DELETE",
     headers: {
       Authorization: `Bearer ${token}`

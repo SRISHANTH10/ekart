@@ -150,7 +150,7 @@ async function saveCartToServer() {
   if (!token) return;
 
   for (const item of cart) {
-    await fetch("http://localhost:3000/api/cart", {
+    await fetch("https://ekart-backend-6o5a.onrender.com/api/cart", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -174,7 +174,7 @@ async function checkout() {
     return;
   }
 
-  const res = await fetch("http://localhost:3000/api/orders", {
+  const res = await fetch("https://ekart-backend-6o5a.onrender.com/api/orders", {
     method: "POST",
     headers: {
       Authorization: `Bearer ${token}`

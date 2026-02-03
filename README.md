@@ -3,7 +3,8 @@
 eKart is a full-stack e-commerce web application inspired by platforms like Amazon.  
 It allows users to browse products, manage carts, place orders, and provides an admin dashboard to manage products, users, and orders.
 
-
+Link of live demo
+https://ekart10.netlify.app/
 
 
 
@@ -54,14 +55,14 @@ It allows users to browse products, manage carts, place orders, and provides an 
 
 ---
 
-## 🔐 Authentication & Authorization
+##  Authentication & Authorization
 - JWT-based authentication
 - Role-based access control (`user` / `admin`)
 - Protected routes for cart, orders, and admin operations
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 │
 ├── frontend/
 │ ├── index.html
